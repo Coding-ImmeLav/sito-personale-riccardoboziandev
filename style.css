@@ -1,0 +1,15 @@
+.benvenuto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    background-color: black;
+    color: white;
+}
+
+.col bio{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
