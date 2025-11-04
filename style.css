@@ -1,15 +1,122 @@
-.benvenuto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 90vh;
-    background-color: black;
-    color: white;
+/* Colore generale della pagina */
+body {
+  background-color: #000;       /* sfondo nero */
+  color: #fff;                  /* testo bianco */
+  font-family: 'Poppins', sans-serif; /* font moderno (opzionale) */
+  margin: 0;
+  padding: 0;
 }
 
-.col bio{
-    height: 30vh;
-    display: flex;
-    align-items: center;
+/* Navbar */
+.navbar {
+  background-color: #111 !important; /* tono di nero più chiaro */
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  color: #0d6efd !important; /* blu chiaro al passaggio del mouse */
+}
+
+/* Sezione di benvenuto */
+.benvenuto {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #000, #111);
+}
+
+.benvenuto h2 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.benvenuto p {
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+/* Sezione Bio */
+
+.bio {
+  background-color: #0a0a0a;
+  padding: 60px 20px;
+  border: 2px solid #333;    
+  border-radius: 10px;       
+  margin: 40px auto;         
+  width: 90%;                
+}
+
+.bio:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    border-color: #555;
+}
+
+
+.bio h3 {
+  color: #fff;
+}
+
+.bio p {
+  color: #ccc;
+}
+
+/* Sezione passioni */
+.passioni {
+  background-color: #111;
+  padding: 80px 20px;
+}
+
+.passioni h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Card */
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.foglio{
+  border: 0.5px solid #1a1a1a;
+  padding: 5%;
+}
+
+.cv:hover{
+  margin-top: 5vh;
+}
+
+.btn{
+  width: auto;
+}
+
+.btn:hover{
+  background-color: black;
+}
+
+.logo{
+  width: 50%;
+}
+
+footer{
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
 }
